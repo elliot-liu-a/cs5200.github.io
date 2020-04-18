@@ -21,7 +21,7 @@ export class ProductService {
   }
 
   findAllProduct(): Observable<Product[]> {
-    return this.http.get<Product[]>('https://cs5200projectlyc.herokuapp.com/findAllProduct/')
+    return this.http.get<Product[]>('https://cs5200projectlyc.herokuapp.com/api/findAllProduct/')
 
   }
 
