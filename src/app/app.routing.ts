@@ -29,7 +29,7 @@ import {CreateSubProductComponent} from "./create-sub-product/create-sub-product
 
 
 const routes: Routes = [
-  {path: '/', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'allUser', component: UserComponent},
